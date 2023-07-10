@@ -1,16 +1,9 @@
 venv/
+build/
+*.charm
+.tox/
+.coverage
 __pycache__/
 *.py[cod]
+.idea
 .vscode/
-.DS_Store
-
-# created while running
-cache.json
-live_database.db
-
-# authentication
-auth_jwt_secret_key
-auth_password
-
-# development
-out/
